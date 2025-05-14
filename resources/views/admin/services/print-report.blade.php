@@ -185,16 +185,6 @@
             <p class="mt-3">Dicetak pada: {{ date('d/m/Y H:i') }}</p>
         </div>
         
-        <!-- Informasi Filter -->
-        <div class="filter-info">
-            <strong><i class="fas fa-filter mr-1"></i> Filter yang diterapkan:</strong>
-            <ul class="mb-0 mt-2">
-                @foreach($filterInfo as $info)
-                    <li>{{ $info }}</li>
-                @endforeach
-            </ul>
-        </div>
-        
         <!-- Ringkasan Informasi -->
         <div class="summary-info">
             <div class="row">
