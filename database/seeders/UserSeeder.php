@@ -17,5 +17,11 @@ class UserSeeder extends Seeder
             'email' => 'admin@pln.com',
             'password' => bcrypt('password123')
         ]);
+
+        User::create([
+            'name' => 'Admin Utama',
+            'email' => 'dwitian2231053@itpln.ac.id',
+            'password' => bcrypt('passutama123')
+        ]);
     }
 }
